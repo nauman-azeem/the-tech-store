@@ -20,6 +20,7 @@ import { SingleComponent } from './components/single';
 import { TermsComponent } from './components/terms';
 import { CartComponent } from './components/cart';
 import { CodesComponent } from './components/codes';
+import { KitchenComponent } from './components/kitchen';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { CodesComponent } from './components/codes';
     SingleComponent,
     TermsComponent,
     CartComponent,
-    CodesComponent
+    CodesComponent,
+    KitchenComponent
   ],
   imports: [
     BrowserModule,

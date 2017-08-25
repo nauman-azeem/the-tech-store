@@ -14,6 +14,7 @@ import { TermsComponent } from './components/terms';
 import { CartComponent } from './components/cart';
 import { TestComponent } from './components/test';
 import { CodesComponent } from './components/codes';
+import { KitchenComponent } from './components/kitchen';
 
 const RoutesDefinition = [
   {
@@ -46,6 +47,8 @@ const RoutesDefinition = [
     path : 'test' , component : TestComponent
   } , {
     path : 'codes' , component : CodesComponent
+  } , {
+    path : 'kitchen' , component : KitchenComponent
   } , {
     path : '**' , redirectTo: '', pathMatch: 'full'
   }

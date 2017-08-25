@@ -1,0 +1,1 @@
+export { KitchenComponent } from './kitchen.component';
