@@ -21,6 +21,7 @@ import { TermsComponent } from './components/terms';
 import { CartComponent } from './components/cart';
 import { CodesComponent } from './components/codes';
 import { KitchenComponent } from './components/kitchen';
+import { SearchBarComponent } from './components/search-bar';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { KitchenComponent } from './components/kitchen';
     TermsComponent,
     CartComponent,
     CodesComponent,
-    KitchenComponent
+    KitchenComponent,
+    SearchBarComponent
   ],
   imports: [
     BrowserModule,

@@ -29,6 +29,11 @@ ul{
 	padding:0;
 }
 
+#search-form-container {
+    height: 60px;
+    background-color: rgba(250,176,8,1)
+}
+
 /*--popup--*/
 .agileits {
     padding: 3em;
