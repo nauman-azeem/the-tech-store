@@ -16,8 +16,8 @@
       <ul class="social-top">
         <li><a href="https://fb.com" target="_blank" class="icon facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span></span></a></li>
         <li><a href="https://twitter.com" target="_blank" class="icon twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span></span></a></li>
-        <li><a href="https://pinterest.com" target="_blank" class="icon pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i><span></span></a></li>
-        <li><a href="https://dribble.com" target="_blank" class="icon dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i><span></span></a></li>
+        <li><a href="https://pinterest.com" target="_blank" class="icon pinterest"><i class="fa fa-linkedin" aria-hidden="true"></i><span></span></a></li>
+        <li><a href="https://dribble.com" target="_blank" class="icon dribbble"><i class="fa fa-github" aria-hidden="true"></i><span></span></a></li>
       </ul>
     </div>
     <div class="nav-top">
@@ -32,9 +32,9 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
           <ul class="nav navbar-nav ">
-            <li class=" active"><a [routerLink]="['']" class="hyper "><span>Home</span></a></li>
-            <li class="dropdown ">
-              <a [routerLink]="['kitchen']" class="dropdown-toggle  hyper" data-toggle="dropdown"><span>Kitchen<b class="caret"></b></span></a>
+            <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['']" class="hyper "><span>Home</span></a></li>
+            <li class="dropdown " routerLinkActive="active" ttsDropdown>
+              <a [routerLink]="['kitchen']"  class="dropdown-toggle  hyper" data-toggle="dropdown" ><span>Kitchen<b class="caret"></b></span></a>
               <ul class="dropdown-menu multi">
                 <div class="row">
                   <div class="col-sm-3">
@@ -69,7 +69,7 @@
                 </div>
               </ul>
             </li>
-            <li class="dropdown">
+            <li class="dropdown " routerLinkActive="active" ttsDropdown>
               <a [routerLink]="['care']" class="dropdown-toggle hyper" data-toggle="dropdown"><span> Personal Care <b class="caret"></b></span></a>
               <ul class="dropdown-menu multi multi1">
                 <div class="row">
@@ -104,8 +104,8 @@
                 </div>
               </ul>
             </li>
-            <li class="dropdown">
-              <a [routerLink]="['hold']" class="dropdown-toggle hyper" data-toggle="dropdown"><span>Household<b class="caret"></b></span></a>
+            <li class="dropdown" routerLinkActive="active" ttsDropdown>
+              <a [routerLink]="['hold']"  class="dropdown-toggle hyper" data-toggle="dropdown"><span>Household<b class="caret"></b></span></a>
               <ul class="dropdown-menu multi multi2">
                 <div class="row">
                   <div class="col-sm-3">
@@ -139,8 +139,8 @@
                 </div>
               </ul>
             </li>
-            <li><a [routerLink]="['codes']" class="hyper"><span>Codes</span></a></li>
-            <li><a [routerLink]="['contact']" class="hyper"><span>Contact Us</span></a></li>
+            <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['codes']"  class="hyper"><span>Codes</span></a></li>
+            <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['contact']"  class="hyper"><span>Contact Us</span></a></li>
           </ul>
         </div>
       </nav>

@@ -22,6 +22,7 @@ import { CartComponent } from './components/cart';
 import { CodesComponent } from './components/codes';
 import { KitchenComponent } from './components/kitchen';
 import { SearchBarComponent } from './components/search-bar';
+import { DropdownDirective } from './directives';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { SearchBarComponent } from './components/search-bar';
     CartComponent,
     CodesComponent,
     KitchenComponent,
-    SearchBarComponent
+    SearchBarComponent,
+    DropdownDirective
   ],
   imports: [
     BrowserModule,
