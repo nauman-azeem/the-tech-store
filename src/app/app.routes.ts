@@ -1,21 +1,24 @@
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './components/home';
-import { LoginComponent } from './components/login';
-import { AboutComponent } from './components/about';
-import { CareComponent } from './components/care';
-import { ContactComponent } from './components/contact';
-import { FaqsComponent } from './components/faqs';
-import { HoldComponent } from './components/hold';
-import { OfferComponent } from './components/offer';
-import { RegisterComponent } from './components/register';
-import { ShippingComponent } from './components/shipping';
-import { SingleComponent } from './components/single';
-import { TermsComponent } from './components/terms';
-import { CartComponent } from './components/cart';
-import { TestComponent } from './components/test';
-import { CodesComponent } from './components/codes';
-import { KitchenComponent } from './components/kitchen';
-
+import {
+  AboutComponent,
+  CareComponent,
+  CartComponent,
+  CodesComponent,
+  ContactComponent,
+  FaqsComponent,
+  FooterComponent,
+  HeaderComponent,
+  HoldComponent,
+  HomeComponent,
+  KitchenComponent,
+  LoginComponent,
+  OfferComponent,
+  RegisterComponent,
+  ShippingComponent,
+  SingleComponent,
+  TermsComponent,
+  TestComponent
+} from './components';
 const RoutesDefinition = [
   {
     path : '' , component : HomeComponent

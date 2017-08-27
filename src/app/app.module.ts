@@ -3,26 +3,27 @@ import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 
 import { AppComponent, AppRoutes } from './';
-import { HeaderComponent } from './components/header';
-import { FooterComponent } from './components/footer';
-import { TestComponent } from './components/test';
-import { LoginComponent } from './components/login';
-import { AboutComponent } from './components/about';
-import { CareComponent } from './components/care';
-import { ContactComponent } from './components/contact';
-import { FaqsComponent } from './components/faqs';
-import { HoldComponent } from './components/hold';
-import { HomeComponent } from './components/home';
-import { OfferComponent } from './components/offer';
-import { RegisterComponent } from './components/register';
-import { ShippingComponent } from './components/shipping';
-import { SingleComponent } from './components/single';
-import { TermsComponent } from './components/terms';
-import { CartComponent } from './components/cart';
-import { CodesComponent } from './components/codes';
-import { KitchenComponent } from './components/kitchen';
-import { SearchBarComponent } from './components/search-bar';
-import { DropdownDirective } from './directives';
+import {
+  AboutComponent,
+  CareComponent,
+  CartComponent,
+  CodesComponent,
+  ContactComponent,
+  FaqsComponent,
+  FooterComponent,
+  HeaderComponent,
+  HoldComponent,
+  HomeComponent,
+  KitchenComponent,
+  LoginComponent,
+  OfferComponent,
+  RegisterComponent,
+  ShippingComponent,
+  SingleComponent,
+  TermsComponent,
+  TestComponent
+} from './components';
+import { DropdownDirective, NavBarCollapseDirective } from './directives';
 
 @NgModule({
   declarations: [
@@ -45,8 +46,8 @@ import { DropdownDirective } from './directives';
     CartComponent,
     CodesComponent,
     KitchenComponent,
-    SearchBarComponent,
-    DropdownDirective
+    DropdownDirective,
+    NavBarCollapseDirective
   ],
   imports: [
     BrowserModule,
