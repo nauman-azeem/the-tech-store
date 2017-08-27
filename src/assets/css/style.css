@@ -304,16 +304,16 @@ img.img-head {
 .icon .fa-facebook {
 	color: #3B5998;
 }
-.icon .fa-pinterest-p {
+.icon .fa-instagram {
 	color: #CB2028;
 }
-.icon .fa-dribbble {
+.icon .fa-linkedin {
 	color: #E04D84;
 }
 .icon:hover .fa-facebook,
 .icon:hover .fa-twitter,
-.icon:hover .fa-pinterest-p,
-.icon:hover .fa-dribbble {
+.icon:hover .fa-instagram,
+.icon:hover .fa-linkedin {
 	color: white;
 }
 /*--social--*/

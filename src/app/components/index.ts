@@ -1,3 +1,4 @@
+/*Pages Components*/
 export { AboutComponent } from './pages/about/about.component';
 export { CareComponent } from './pages/care/care.component';
 export { CartComponent } from './pages/cart/cart.component';
@@ -14,6 +15,8 @@ export { ShippingComponent } from './pages/shipping/shipping.component';
 export { SingleComponent } from './pages/single/single.component';
 export { TermsComponent } from './pages/terms/terms.component';
 export { TestComponent } from './pages/test/test.component';
+
+/*Standalone Components*/
 export { FooterComponent } from './standalone/footer/footer.component';
 export { HeaderComponent } from './standalone/header/header.component';
 export { SliderComponent }  from './standalone/slider/slider.component';
