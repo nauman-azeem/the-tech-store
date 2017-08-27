@@ -14,6 +14,8 @@ export { RegisterComponent } from './pages/register/register.component';
 export { ShippingComponent } from './pages/shipping/shipping.component';
 export { SingleComponent } from './pages/single/single.component';
 export { TermsComponent } from './pages/terms/terms.component';
+export { CategoryComponent } from './pages/category/category.component';
+export { BrandComponent } from './pages/brand/brand.component';
 export { TestComponent } from './pages/test/test.component';
 
 /*Standalone Components*/

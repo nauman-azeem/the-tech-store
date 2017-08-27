@@ -25,6 +25,8 @@ import {
   ShippingComponent,
   SingleComponent,
   TermsComponent,
+  CategoryComponent,
+  BrandComponent,
   HeaderComponent,
   FooterComponent,
   SliderComponent,
@@ -65,7 +67,9 @@ import {
     KitchenComponent,
     DropdownDirective,
     SliderComponent,
-    ProductComponent
+    ProductComponent,
+    CategoryComponent,
+    BrandComponent
   ],
   imports: [
     BrowserModule,
