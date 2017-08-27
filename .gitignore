@@ -23,6 +23,7 @@
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+/.vscode
 
 # misc
 /.sass-cache
@@ -33,6 +34,8 @@ npm-debug.log
 testem.log
 /typings
 yarn-error.log
+.firebaserc
+firebase.json
 
 # e2e
 /e2e/*.js
