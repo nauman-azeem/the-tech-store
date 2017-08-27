@@ -1,12 +1,14 @@
+// Core Imports
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 
+// App Imports
 import { 
   AppComponent,
-  AppRoutes
 } from './';
 
+// Components Imports
 import {
   AboutComponent,
   CareComponent,
@@ -26,12 +28,19 @@ import {
   HeaderComponent,
   FooterComponent,
   SliderComponent,
+  ProductComponent,
   TestComponent
 } from './components';
 
+// Directives Imports
 import { 
   DropdownDirective
 } from './directives';
+
+// Routes Imports
+import {
+  AppRoutes
+} from './routes';
 
 @NgModule({
   declarations: [
@@ -55,7 +64,8 @@ import {
     CodesComponent,
     KitchenComponent,
     DropdownDirective,
-    SliderComponent
+    SliderComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,

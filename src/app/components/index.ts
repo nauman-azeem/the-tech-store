@@ -20,3 +20,4 @@ export { TestComponent } from './pages/test/test.component';
 export { FooterComponent } from './standalone/footer/footer.component';
 export { HeaderComponent } from './standalone/header/header.component';
 export { SliderComponent }  from './standalone/slider/slider.component';
+export { ProductComponent }  from './standalone/product/product.component';

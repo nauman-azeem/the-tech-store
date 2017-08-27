@@ -16,7 +16,7 @@ import {
   SingleComponent,
   TermsComponent,
   TestComponent
-} from './components';
+} from './../components';
 const RoutesDefinition = [
   {
     path : '' , component : HomeComponent
@@ -51,7 +51,11 @@ const RoutesDefinition = [
   } , {
     path : 'kitchen' , component : KitchenComponent
   } , {
-    path : '**' , redirectTo: '', pathMatch: 'full'
+    path : ':category' , redirectTo: 'test', pathMatch: 'full'
+  } , {
+    path : ':category/:brand', redirectTo: 'codes', pathMatch: 'full'
+  } , {
+    path : ':category/:brand/:product', redirectTo: 'login', pathMatch: 'full'
   }
 ];
 

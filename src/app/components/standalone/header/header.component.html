@@ -1,15 +1,15 @@
 <div class="header">
   <div class="container">
     <div class="logo">
-      <h1><a [routerLink]="['']"><b>T<br>H<br>E</b>Tec Store<span>The Best Supermarket</span></a></h1>
+      <h1><a [routerLink]="['/']"><b>T<br>H<br>E</b>Tec store<span>The Best COMPUTERS</span></a></h1>
     </div>
     <div class="head-t">
       <ul class="card">
-        <li><a [routerLink]="['cart']"><i class="fa fa-shopping-cart"></i>Cart</a></li>
-        <li><a [routerLink]="['login']"><i class="fa fa-user"></i>Login</a></li>
-        <li><a [routerLink]="['register']"><i class="fa fa-arrow-right"></i>Register</a></li>
-        <li><a [routerLink]="['orders']"><i class="fa fa-file-text-o"></i>Order History</a></li>
-        <li><a [routerLink]="['shipping']"><i class="fa fa-ship"></i>Shipping</a></li>
+        <li><a [routerLink]="['/cart']"><i class="fa fa-shopping-cart"></i>Cart</a></li>
+        <li><a [routerLink]="['/login']"><i class="fa fa-user"></i>Login</a></li>
+        <li><a [routerLink]="['/register']"><i class="fa fa-arrow-right"></i>Register</a></li>
+        <li><a [routerLink]="['/orders']"><i class="fa fa-file-text-o"></i>Order History</a></li>
+        <li><a [routerLink]="['/shipping']"><i class="fa fa-ship"></i>Shipping</a></li>
       </ul>
     </div>
     <div class="header-ri">
@@ -32,9 +32,9 @@
         </div>
         <div class="navbar-collapse" [ngClass]="{collapse: isCollapsed}" id="bs-megadropdown-tabs">
           <ul class="nav navbar-nav">
-            <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['']" class="hyper"><span>Home</span></a></li>
+            <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['/']" class="hyper"><span>Home</span></a></li>
             <li class="dropdown" routerLinkActive="active" ttsDropdown>
-              <a [routerLink]="['kitchen']"  class="dropdown-toggle hyper"><span>Kitchen<b class="caret"></b></span></a>
+              <a [routerLink]="['/kitchen']"  class="dropdown-toggle hyper"><span>Kitchen<b class="caret"></b></span></a>
               <ul class="dropdown-menu multi">
                 <div class="row">
                   <div class="col-sm-3">
@@ -63,14 +63,14 @@
                     </ul>
                   </div>
                   <div class="col-sm-3 w3l">
-                    <a [routerLink]="['kitchen']"><img src="../../../assets/images/me.png" class="img-responsive" alt=""></a>
+                    <a [routerLink]="['/kitchen']"><img src="../../../assets/images/me.png" class="img-responsive" alt=""></a>
                   </div>
                   <div class="clearfix"></div>
                 </div>
               </ul>
             </li>
             <li class="dropdown " routerLinkActive="active" ttsDropdown>
-              <a [routerLink]="['care']" class="dropdown-toggle hyper"><span> Personal Care <b class="caret"></b></span></a>
+              <a [routerLink]="['/care']" class="dropdown-toggle hyper"><span> Personal Care <b class="caret"></b></span></a>
               <ul class="dropdown-menu multi multi1">
                 <div class="row">
                   <div class="col-sm-3">
@@ -98,14 +98,14 @@
                     </ul>
                   </div>
                   <div class="col-sm-3 w3l">
-                    <a [routerLink]="['care']"><img src="../../../assets/images/me1.png" class="img-responsive" alt=""></a>
+                    <a [routerLink]="['/care']"><img src="../../../assets/images/me1.png" class="img-responsive" alt=""></a>
                   </div>
                   <div class="clearfix"></div>
                 </div>
               </ul>
             </li>
             <li class="dropdown" routerLinkActive="active" ttsDropdown>
-              <a [routerLink]="['hold']"  class="dropdown-toggle hyper"><span>Household<b class="caret"></b></span></a>
+              <a [routerLink]="['/hold']"  class="dropdown-toggle hyper"><span>Household<b class="caret"></b></span></a>
               <ul class="dropdown-menu multi multi2">
                 <div class="row">
                   <div class="col-sm-3">
@@ -133,14 +133,14 @@
                     </ul>
                   </div>
                   <div class="col-sm-3 w3l">
-                    <a [routerLink]="['hold']"><img src="../../../assets/images/me2.png" class="img-responsive" alt=""></a>
+                    <a [routerLink]="['/hold']"><img src="../../../assets/images/me2.png" class="img-responsive" alt=""></a>
                   </div>
                   <div class="clearfix"></div>
                 </div>
               </ul>
             </li>
-            <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['codes']" class="hyper"><span>Codes</span></a></li>
-            <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['contact']" class="hyper"><span>Contact Us</span></a></li>
+            <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['/codes']" class="hyper"><span>Codes</span></a></li>
+            <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['/contact']" class="hyper"><span>Contact Us</span></a></li>
           </ul>
         </div>
       </nav>
