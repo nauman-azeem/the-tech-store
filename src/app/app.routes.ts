@@ -6,8 +6,6 @@ import {
   CodesComponent,
   ContactComponent,
   FaqsComponent,
-  FooterComponent,
-  HeaderComponent,
   HoldComponent,
   HomeComponent,
   KitchenComponent,

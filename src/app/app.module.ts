@@ -2,7 +2,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 
-import { AppComponent, AppRoutes } from './';
+import { 
+  AppComponent,
+  AppRoutes
+} from './';
+
 import {
   AboutComponent,
   CareComponent,
@@ -10,8 +14,6 @@ import {
   CodesComponent,
   ContactComponent,
   FaqsComponent,
-  FooterComponent,
-  HeaderComponent,
   HoldComponent,
   HomeComponent,
   KitchenComponent,
@@ -21,9 +23,15 @@ import {
   ShippingComponent,
   SingleComponent,
   TermsComponent,
+  HeaderComponent,
+  FooterComponent,
+  SliderComponent,
   TestComponent
 } from './components';
-import { DropdownDirective, NavBarCollapseDirective } from './directives';
+
+import { 
+  DropdownDirective
+} from './directives';
 
 @NgModule({
   declarations: [
@@ -47,7 +55,7 @@ import { DropdownDirective, NavBarCollapseDirective } from './directives';
     CodesComponent,
     KitchenComponent,
     DropdownDirective,
-    NavBarCollapseDirective
+    SliderComponent
   ],
   imports: [
     BrowserModule,
