@@ -1,7 +1,9 @@
 // Core Imports
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
+import { HttpModule } from '@angular/http';
 
 // App Imports
 import { 
@@ -44,6 +46,11 @@ import {
   AppRoutes
 } from './routes';
 
+// Plugins Imports
+import {
+  QUBAngularPluginComponent
+} from './plugins';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -69,13 +76,18 @@ import {
     SliderComponent,
     ProductComponent,
     CategoryComponent,
-    BrandComponent
+    BrandComponent,
+    QUBAngularPluginComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    HttpModule,
     AppRoutes
   ],
-  providers: [RouterModule],
+  providers: [
+    RouterModule
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

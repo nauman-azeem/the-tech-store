@@ -1,0 +1,1 @@
+export { QUBAngularPluginComponent } from './QUB-angular-plugin/qubap.component';

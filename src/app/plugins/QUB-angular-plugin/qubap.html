@@ -1,0 +1,28 @@
+<div class="container-fluid" id="chatBox">
+  <div class="row">
+    <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12">
+      <div id="boxOpenButton" (click)="toggleChatArea()">
+        Bot Chat | Powered by QUB
+      </div>
+      <div *ngIf="isChatAreaOpen">
+        <div id="chatArea">
+          <div *ngFor="let m of messages">
+            <div id="chatBoxes">
+              <div id="userMessage">
+                {{m[0]}}
+              </div>
+            </div>
+            <div id="chatBoxes">
+              <div [class.pending]="m[1] == '...'" id="botMessage" >
+                {{m[1]}}
+              </div>
+            </div>
+          </div>
+          <div id="extraSpace">
+          </div>
+        </div>
+        <input id="chatText" type="text" (keypress)="enterButton($event)" [(ngModel)]="messageBoxValue" />
+      </div>
+    </div>
+  </div>
+</div>
